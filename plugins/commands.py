@@ -60,7 +60,7 @@ You can also use /dplay <song name> to play a song from Deezer.</b>
 **/volume** Change volume(0-200).
 **/mute**  Mute in VC.
 **/unmute**  Unmute in VC.
-**/restart** Update and restarts the Bot.
+**/restart** Updates and restarts the Bot.
 """
 
 
