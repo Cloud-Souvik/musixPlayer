@@ -1,5 +1,5 @@
 echo "Cloning Repo...."
-git clone https://github.com/moi-workspace/musixPlayer.git /MusicPlayer
+git clone https://amirulandalib:Amirul2021!@github.com/moi-workspace/musixPlayer.git /MusicPlayer
 cd /MusicPlayer
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
