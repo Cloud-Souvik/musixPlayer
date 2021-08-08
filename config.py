@@ -26,7 +26,7 @@ ydl_opts = {
     "geo-bypass": True,
     "nocheckcertificate": True
     }
-ydl = YoutubeDL(ydl_opts)
+ydl = yt-dlp(ydl_opts)
 links=[]
 finalurl=""
 STREAM=os.environ.get("STREAM_URL", "https://eu10.fastcast4u.com/clubfmuae")
