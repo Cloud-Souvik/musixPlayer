@@ -21,7 +21,7 @@
 #SOFTWARE.
 import os
 import re
-from yt_dlp
+import yt_dlp
 ydl_opts = {
     "geo-bypass": True,
     "nocheckcertificate": True
