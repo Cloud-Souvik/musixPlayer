@@ -21,12 +21,12 @@
 #SOFTWARE.
 import os
 import re
-import yt_dlp
+from yt_dlp import YoutubeDL
 ydl_opts = {
     "geo-bypass": True,
     "nocheckcertificate": True
     }
-ydl = yt_dlp(ydl_opts)
+ydl = YoutubeDL(ydl_opts)
 links=[]
 finalurl=""
 STREAM=os.environ.get("STREAM_URL", "https://eu10.fastcast4u.com/clubfmuae")
