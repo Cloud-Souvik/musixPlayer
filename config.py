@@ -21,12 +21,12 @@
 #SOFTWARE.
 import os
 import re
-from yt_dlp import yt-dlp
+from yt_dlp import yt_dlp
 ydl_opts = {
     "geo-bypass": True,
     "nocheckcertificate": True
     }
-ydl = yt-dlp(ydl_opts)
+ydl = yt_dlp(ydl_opts)
 links=[]
 finalurl=""
 STREAM=os.environ.get("STREAM_URL", "https://eu10.fastcast4u.com/clubfmuae")
