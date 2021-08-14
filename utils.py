@@ -29,7 +29,7 @@ import wget
 from asyncio import sleep
 from pyrogram import Client
 from pyrogram.utils import MAX_CHANNEL_ID
-from yt_dlp import YoutubeDL
+from youtube_dl import YoutubeDL
 from os import path
 import subprocess
 import asyncio
