@@ -21,7 +21,7 @@
 #SOFTWARE.
 import os
 import re
-from yt_dlp import YoutubeDL
+from youtube_dl import YoutubeDL
 ydl_opts = {
     "geo-bypass": True,
     "nocheckcertificate": True
